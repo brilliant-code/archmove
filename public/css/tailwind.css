@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('../fonts/sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Light'), url('../fonts/sf-ui-display-light-58646b33e0551.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'New York Extra Large Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('New York Extra Large Regular'), url('../fonts/NewYorkExtraLargeRegular.woff') format('woff');
+}
+
+.w-65p {
+    width: 65%;
+}
