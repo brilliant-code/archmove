@@ -1,0 +1,15 @@
+#+TITLE: ReadME
+#+DESCRIPTION: Archmove clone built with TailwindCSS
+
+* About
+  As a fullstack developer which wants to improve my front-end skills I want to improve scaffolding skills as well. Because I've almost no problems with client javascript. CSS is a bit problematic, but everyday I'm working on it.
+  Template provided by figma, check out https://www.figma.com/file/17bMVJ47qVpdLi7j0u2z9q/Archmove
+* Hacking
+  You can add your custom classes to it, to do that check out [[https://tailwindcss.com/docs/extracting-components#extracting-component-classes-with-apply][this tutorial from docs.]] 
+** Installing dependencies
+   As simple as a piece of cake, if you want to compile your implemented /cool brand new theme on steroids/, or /components with @apply directive/, just do:
+   #+BEGIN_SRC shell
+   npm install && npm run build
+   #+END_SRC
+* Contribution
+  Feel free to contribute, provide your own ideas, point of view. Together we can make this project to have /readable classes & css/ and *to load faster*
